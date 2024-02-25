@@ -1,16 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-  <title>Home</title>
+  <title>Barras proteicas</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="../style.css">
-
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -19,7 +17,7 @@
       <nav class="navbar navbar-expand-lg d-none d-lg-block ">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="../imagenes/imagenes financiero/Logo.png" alt="" width="50" height="50"
+            <img src="./imagenes/imagenes financiero/Logo.png" alt="" width="50" height="50"
               class="d-inline-block align-text-top">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -31,10 +29,10 @@
             <div class="navbar container-fluid ">
               <ul class="navbar-nav me-auto   my-2 my-lg-0 navbar-nav-scroll">
                 <li class="nav-item mx-4">
-                  <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link text-light " aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item mx-4">
-                  <a class="nav-link  text-light" href="Store.html">Tienda</a>
+                  <a class="nav-link  active" href="Store.html">Tienda</a>
                 </li>
                 <li class="nav-item mx-4">
                   <a class="nav-link  text-light" href="Us.html">Nosotros</a>
@@ -53,10 +51,7 @@
                     role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-geo-alt"></i>
                     Localizar Tienda</a>
                 </li>
-                <li class="nav-item mx-4 ">
-                  <a class="nav-link text-light" data-toggle="tab" href="Contact.html" role="tab"
-                    aria-controls="profile" aria-selected="false">Contacto</a>
-                </li>
+
 
               </ul>
             </div>
@@ -68,7 +63,7 @@
       <nav class="navbar navbar-expand-lg d-block d-lg-none ">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="../imagenes/imagenes financiero/Logo.png" alt="" width="50" height="50"
+            <img src="./imagenes/imagenes financiero/Logo.png" alt="" width="50" height="50"
               class="d-inline-block align-text-top">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -80,10 +75,10 @@
             <div class="navbar container-fluid ">
               <ul class="navbar-nav me-auto   my-2 my-lg-0 navbar-nav-scroll">
                 <li class="nav-item mx-4">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link text-light" aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item mx-4">
-                  <a class="nav-link text-light" href="Store.html">Tienda</a>
+                  <a class="nav-link active" href="Store.html">Tienda</a>
                 </li>
                 <li class="nav-item mx-4">
                   <a class="nav-link text-light" href="Us.html">Nosotros</a>
@@ -95,15 +90,11 @@
                     role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-geo-alt"></i>
                     Localizar Tienda</a>
                 </li>
-                <li class="nav-item mx-4 ">
-                  <a class="nav-link text-light" data-toggle="tab" href="Contact.html" role="tab"
-                    aria-controls="profile" aria-selected="false">Contacto</a>
-                </li>
 
               </ul>
             </div>
             <form class="d-flex mx-4 " role="search">
-              <span class="bi-search form-control-feedback search-input"></span>
+              <span class="bi bi-search form-control-feedback search-input"></span>
               <input type="text" class="form-control form-search" placeholder="Buscar">
             </form>
 
@@ -113,264 +104,193 @@
 
     </div>
   </header>
-  <div class="container-fluid">
-    <div class="row ms-1 me-1">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item w-100 active" data-bs-interval="10000">
-            <img src="../imagenes/imagenes financiero/carousel.webp" class="d-block w-100" style="height: 500px;"
-              alt="...">
-            <div class="carousel-caption d-none-block">
-              <h2 class="title text-white" id="title-carousel">LawFit</h2>
-              <h3 class="title text-white" id="subtitle-carousel">Suplementos alimenticios</h3>
-              <h6 class="title text-white" id="descriptionTitle-carousel">Nutrición que alimenta tu bienestar
-              </h6>
-              <p class="text text-white d-none d-lg-block">
-                En LawFit nos une la pasión por los productos alimenticios nutritivos y deliciosos, y queremos
-                compartirlos contigo. Trabajamos en colaboración directa con agricultores locales para garantizar la
-                calidad de nuestros ingredientes, apoyando así el desarrollo comunitario en áreas como el Soconusco,
-                donde muchas familias, lideradas especialmente por mujeres, se benefician de nuestra colaboración.</p>
-
-              <a type="button" class="btn btn-outline-light position-relative btn-carousel botton-40">
-                Conoce más
-              </a>
-            </div>
-
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="../imagenes/imagenes financiero/carousel2.png" class="d-block w-100" style="height: 500px;"
-              alt="...">
-
-            <div class="carousel-caption d-none d-md-block">
-              <h6 class="title text-white" id="descriptionTitle-carousel">Productos de calidad
-              </h6>
-              <p class="text text-white d-none d-lg-block">
-                En LawFit nos une la pasión por los productos alimenticios nutritivos y deliciosos, y queremos
-                compartirlos contigo. </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/imagenes financiero/carousel3.jpg" class="d-block w-100" style="height: 500px;"
-              alt="...">
 
 
-            <div class="carousel-caption d-none d-md-block">
-              <h6 class="title text-white" id="descriptionTitle-carousel">Envio de productos
-              </h6>
-              <p class="text text-white d-none d-lg-block">
+  <main class="container-liquid">
+    <section class="row g-0 mt-4">
+      <div class="col ">
+        <h2 class="text-center title-DiosC">LawFit </br>Suplementos y Accesorios</h1>
+          <p class="text-center text-DiosC">Nutrición que cuida el progreso</p>
+      </div>
+    </section>
+    <section class="row g-0 ms-4 me-4 border-bottom border-top border-3 section-Menu">
+      <div class="col-5  pt-2 pb-1 me-5">
+        <h5><strong>Menú</strong>/Barras proteicas</h5>
+      </div>
+      <div class="col-2 ms-2 pt-2 pb-1 d-lg-none d-block justify-content-between ">
+        <h5>Filtros</h5>
+      </div>
+      <div class="col-2 ms-1 d-lg-none d-block">
 
-                Descubre la comodidad de recibir tus productos LawFit con envíos seguros y totalmente confiables. ¡Haz
-                tu pedido hoy y disfruta de la mejor calidad en productos alimenticios directamente en tu puerta! </p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="btn btn-liht" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+          aria-controls="staticBackdrop">
+          <span class="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel"
+              viewBox="0 0 16 16">
+              <path
+                d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
+            </svg>
+          </span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <div class="row ms-3 me-3 Choco-perfecto">
-      <div class="row g-0 ps-4 ">
-        <div class="col-12 col-md-8 g-0">
-          <div class="row ">
-            <div class="col-12 p-3">
-              <p class="text-light d-lg-block d-none">Encuentra Suplemento ideal</p>
-              <p class="text-dark d-lg-none d-block">Encuentra Suplemento ideal</p>
-            </div>
-            <div class="col-12">
-              <h3 class="text-light d-lg-block d-none">En LawFit</h3>
-              <h3 class="text-dark d-lg-none d-block">En LawFit</h3>
-            </div>
-            <div class="col-12">
-              <p class="text-light d-lg-block d-none">Ofrecemos una amplia variedad de suplementos para todos los
-                gustos, edades y necesidades. Encuentra el ideal para ti en nuestra tienda y descubre cómo mejorar tu
-                bienestar día a día.</p>
-              <p class="text-dark d-lg-none d-block">Ofrecemos una amplia variedad de suplementos para todos los gustos,
-                edades y necesidades. Encuentra el ideal para ti en nuestra tienda y descubre cómo mejorar tu bienestar
-                día a día.</p>
-            </div>
-            <div class="col-12"><a href="Store.html" type="button" class="btn text-light btn-comprar">Comprar ahora</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <img src="../imagenes//imagenes financiero/6.png" class="rounded float-end img-comprar">
-        </div>
-      </div>
-    </div>
 
-  </div>
-  <div class="container-fluid mb-5">
-    <div class="row g-0 ms-3 me-3  ">
-      <div class="col-12  col-md-2 d-none d-md-block">
-        <div class="row g-0 pt-5">
-          <div class="col-6 col-md-12  border-bottom border-4">
-            <img src="../imagenes/imagenes financiero/mancuerna.png" width="20%" class="rounded float-start pb-2"
-              alt="...">
+        <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+          aria-labelledby="staticBackdropLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Filtrat por</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="col-6 col-md-12 ">
-            <img src="../imagenes/imagenes financiero/mancuerna.png" width="18%" class="rounded float-end pb-2 pt-5"
-              alt="...">
-          </div>
-          <div class="col-6 col-md-12 ">
-            <img src="../imagenes/imagenes financiero/mancuerna.png" width="16%" class="rounded float-start pb-2 pt-5"
-              alt="...">
-          </div>
-          <div class="col-6 col-md-12 text-center ">
-            <a href="https://wa.me/+529631745688">
-              <img src="../imagenes/imagenes financiero/Whatsapp.png" width="20%" class="rounded-circle img-whats"
-                alt="..."></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12  col-md-5 pt-5">
-        <div class="row g-0 ps-4">
-          <div class="col-12 text-contact">
-            <h3>¡Ahora puedes hacer de tus antojos una opción más saludable! </h3>
-          </div>
-          <br /><br /><br />
-          <div class="col-12 text-contact">
-            <p>Elige entre nuestra selección de suplementos, con diversas opciones para satisfacer tus necesidades de bienestar. Añade los ingredientes que más te gusten para personalizar tu experiencia.</p>
-          </div>
-          <div class="col-12 color-text-contact">
-            <p>¡Pídelo en tableta o bombones!</p>
-          </div>
-          <div class="col-12">
-            <div class="row d-flex align-items-center">
-              <div class="col-1 p-1 ">
-                <img src="../imagenes//imagenes financiero/Flecha.png" class="img-fluid" alt="...">
+          <div class="offcanvas-body">
+            <form action="">
+              <div class="col-12">
+
+                <label class="form-check-label" for="defaultCheck1">
+                  T-bar
+                </label>
               </div>
-              <div class="col-10 text-contact">
-                <a class="text-decoration-none text-dark" href="Store.html">
-                  <p class="m-0">Hecha un vistazo a lo nuevo</p>
-                </a>
+              <div class="col-12">
 
+                <label class="form-check-label" for="defaultCheck1">
+                  protein
+                </label>
               </div>
-            </div>
+              <div class="col-12">
+
+                <label class="form-check-label" for="defaultCheck1">
+                  ONE Protein Bar
+                </label>
+              </div>
+              <div class="col-12">
+
+                <label class="form-check-label" for="defaultCheck1">
+                  Z-A
+                </label>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-      <div class="col-12  col-md-5 text-center pt-5">
-        <img src="../imagenes//imagenes financiero/3.jpg" width="70%"
-          class="img-fluid rounded float-start ps-4" alt="...">
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="card-group mt-4 row text-center d-flex  justify-content-evenly">
-      <div class="columns-3 col-12 col-lg-4">
-        <div class="">
-          <img src="../imagenes//imagenes financiero/Tienda.jpg" class="rounded-circle img-fluid img-1">
-          <div class="card  col1-3">
-            <div class="card-body col1-body">
+    </section>
+    <section class="row mt-4 mb-4 g-0">
+      <div class="col-lg-2 d-none d-lg-block">
+        <nav class="row ms-4">
+          <div class="col-12 g-0">
+            <img src="./imagenes/imagenes financiero/mancuerna.png" alt="" width="18%"
+              class="rounded float-start ms-3 mt-4">
+          </div>
+          <div class="col-12 g-0">
+            <img src="./imagenes/imagenes financiero/mancuerna.png" alt="" width="14%"
+              class="rounded float-end me-5 mt-2">
+          </div>
+          <div class="row g-0 OrderBy">
+            <div class="col-12 pb-2 OrderBy2">
+              <h5>Resultados</h5>
+            </div>
+            <form action="">
+              <div class="col-12">
 
-              <h4 class="card-title text-white">¡SUPLEMENTOS PARA TODOS LOS DÍAS!</h4><br>
-              <p class="text-md-center text-white">
-                Los entusiastas de la salud y el bienestar saben que los suplementos ofrecen una amplia gama de beneficios para mejorar nuestra calidad de vida. Según The Society Chemical Industry, pueden potenciar naturalmente el sistema inmunológico, mejorando así la respuesta a las vacunas y fortaleciendo nuestra protección contra enfermedades como la influenza.
-              </p>
-              <div class="Articulo-click">
-                Para leer el artículo completo, haz clic aquí.
-                <div>
-                  <ins>click aqui</ins>
+                <label class="form-check-label" for="defaultCheck1">
+                  T-bar
+                </label>
+              </div>
+              <div class="col-12">
+
+                <label class="form-check-label" for="defaultCheck1">
+                  Protein
+                </label>
+              </div>
+              <div class="col-12">
+
+                <label class="form-check-label" for="defaultCheck1">
+                  ONE Protein Bar
+                </label>
+              </div>
+              <div class="col-12">
+
+                <label class="form-check-label" for="defaultCheck1">
+                  Z-A
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 g-0">
+            <img src="./imagenes/imagenes financiero/mancuerna.png" alt="" width="25%" class=" float-start ms-3 mt-5">
+          </div>
+          <div class="col-12 g-0">
+            <img src="./imagenes/imagenes financiero/mancuerna.png" alt="" width="18%" class=" float-end me-5 mt-3">
+          </div>
+          <div class="col-12 g-0">
+            <img src="./imagenes/imagenes financiero/mancuerna.png" alt="" width="14%x" class=" float-start ms-5 mt-5">
+          </div>
+          <div class="col-12 g-0">
+            <img src="./imagenes/imagenes financiero/estante-mancuernas.png" alt="" width="90%" class="">
+          </div>
+        </nav>
+      </div>
+      <div class="col-12 col-lg-10">
+        <div class="row d-flex justify-content-evenly g-lg-5 g-0 ms-4 me-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow p-3 mb-5  rounded">
+              <img class="card-img-top card-img-products" src="./imagenes/imagenes financiero/Bar Protein.png" alt="">
+              <div class="card-body">
+                <div class="card-title text-center">
+                  <h5 class="">Caja de 15 barras protein</h5>
+                </div>
+                <div class="card-subtitlemb-2">
+                  <h6 class="price-article">MXN 428.62</h6>
+                </div>
+                <div class="card-text card-text-universal">
+                  <p class="">
+                    Barra de proteína sabor chocolate, elaborada con dátiles, soya inflada, proteína de suero de leche,
+                    chocolate amargo y crema de cacahuate.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="columns-3 col-12 col-lg-4">
-        <div class="">
-          <img src="../imagenes/imagenes financiero/5.jpg" class="rounded-circle img-fluid img-1">
-          <div class="card  col2-3 ">
-            <div class="card-body col1-body">
-
-              <h4 class="card-title text-white">¡CONOCE LA HISTORIA DE LOS SUPLEMENTOS!</h4><br>
-              <p class="text-md-center text-white">
-                Los suplementos han sido parte de la búsqueda constante del ser humano por mejorar su salud y bienestar. Gracias a la diversidad de climas y la riqueza natural de México, hemos contribuido significativamente a la gastronomía mundial. Descubre cómo los suplementos han sido una parte integral de esta historia, sorprendiendo y beneficiando a personas de todo el mundo.
-              </p>
-              <div class="Articulo-click">
-                Para leer el artículo completo, haz clic aquí.
-                <div>
-                  <ins>click aqui</ins>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow p-3 mb-5  rounded">
+              <img class="card-img-top card-img-products" src="./imagenes/imagenes financiero/Tbar.png" alt="">
+              <div class="card-body">
+                <div class="card-title text-center">
+                  <h5 class="">T-Bar</h5>
+                </div>
+                <div class="card-subtitlemb-2">
+                  <h6 class="price-article">MXN 51.63</h6>
+                </div>
+                <div class="card-text card-text-universal">
+                  <p class="">
+                    Nuestra barrita de proteína vegana T-bar es una delicia para el paladar y los músculos. Con un 28%
+                    de proteína de guisantes, arroz y girasol, solo 1g de azúcar por barrita
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="columns-3 col-12 col-lg-4">
-        <div class="">
-          <img src="../imagenes/imagenes financiero/Personas.jpeg" class="rounded-circle img-fluid img-1">
-          <div class="card  col3-3">
-            <div class="card-body col1-body">
-
-              <h4 class="card-title text-white">¡RECETAS CON SUPLEMENTOS!</h4><br>
-              <p class="text-md-center text-white">
-                Descubre las mejores recetas donde el ingrediente principal son nuestros suplementos, seleccionados cuidadosamente de diferentes marcas reconocidas por su calidad y eficacia. Te ofrecemos opciones alternativas y nutritivas para satisfacer tus antojos en cualquier momento del día.
-              </p>
-              <div class="Articulo-click2">
-                Para conocer más sobre nuestras marcas de suplementos, haz clic aquí.
-                <div>
-                  <ins>click aqui</ins>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="shadow  p-3 mb-5  rounded">
+              <img class="card-img-top card-img-products" src="./imagenes/imagenes financiero/Barras one.png" alt="">
+              <div class="card-body">
+                <div class="card-title text-center">
+                  <h5 class="">ONE Protein Bar, paquete de 12</h5>
                 </div>
+                <div class="card-subtitlemb-2">
+                  <h6 class="price-article">MXN 1,113.82 </h6>
+                </div>
+                <div class="card-text card-text-universal">
+                  <p class="">
+                    Cuando se trata de bocadillos, todos tenemos derecho a la combinación perfecta. Con 20 gramos de
+                    proteína, solo 1 gramo de azúcar
+                  </p>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  <div class="container">
-    <div class="d-grid gap-auto ">
-      <div class="p-2">
-        <img src="../imagenes/imagenes financiero/mancuerna.png" class="rounded float-start"
-          width="60px" alt="">
-        <img src="../imagenes/imagenes financiero/mancuerna.png" class="rounded float-end"
-          width="60px" alt="">
-      </div>
-      <div class="p-2">
-        <div class="card mb-3 slide top-0 start-50 translate-middle-x coment-color">
-          <div class="row g-0">
-            <div class="col-md-8">
-              <div class="card-body text-center d-none-block align-items-center">
-                <h5 class="card-title text-white text-center mb-5">¡QUEREMOS ESCUCHARTE!</h5>
-                <p class="text-center text-white mb-5">En LawFit, valoramos la opinión de nuestros clientes. Por eso, te ofrecemos un espacio dedicado donde puedes expresarte sobre nuestros productos y compartir tus experiencias. Tu feedback es fundamental para nosotros y ayuda a mejorar nuestra oferta de suplementos alimenticios.</p>
-                
+    </section>
+  </main>
 
-    
-              </div>
-            </div>
-            <div class="col-md-4 rounded float-end">
-              <img src="../imagenes/imagenes financiero/conocerte.jpg" class="img-fluid" alt="...">
-            </div>
-          </div>
-
-        </div>
-        <div class="p-2 container text-center ">
-          <img src="../imagenes/imagenes financiero/mancuerna.png"
-            class="rounded position-relative granoCacao-ult " alt="">
-        </div>
-      </div>
-    </div>
-  </div>
   <footer class="container-fluid border-top border-3 mt-4">
     <div class="row  pt-2">
       <div class="col-12 col-lg-4 pb-4 ps-4">
@@ -382,12 +302,16 @@
             <h4 class="text-center">Ubicación</h4>
           </div>
           <div class="col-12 d-none d-lg-block">
-            <p>Nueva Santo Domingo 241, San Francisco</br>
-              Tetecala, Azcapotzalco, CDMX</p>
+            <p>
+              Nueva Santo Domingo 241, San Francisco</br>
+              Tetecala, Azcapotzalco, CDMX
+            </p>
           </div>
           <div class="col-12 pb-4 d-block d-lg-none">
-            <p class="text-center">Nueva Santo Domingo 241, San Francisco</br>
-              Tetecala, Azcapotzalco, CDMX</p>
+            <p class="text-center">
+              Nueva Santo Domingo 241, San Francisco</br>
+              Tetecala, Azcapotzalco, CDMX
+            </p>
           </div>
         </div>
       </div>
@@ -400,12 +324,16 @@
             <h4 class="text-center">Horarios</h4>
           </div>
           <div class="col-12 d-none d-lg-block">
-            <p>Martes a viernes: de 12:00 a 18:00 h.</br>
-              Sábado: de 12:00 a 15:00 h.</p>
+            <p>
+              Martes a viernes: de 12:00 a 18:00 h.</br>
+              Sábado: de 12:00 a 15:00 h.
+            </p>
           </div>
           <div class="col-12 pb-4 d-block d-lg-none">
-            <p class="text-center">Martes a viernes: de 12:00 a 18:00 h.</br>
-              Sábado: de 12:00 a 15:00 h.</p>
+            <p class="text-center">
+              Martes a viernes: de 12:00 a 18:00 h.</br>
+              Sábado: de 12:00 a 15:00 h.
+            </p>
           </div>
         </div>
       </div>
@@ -446,6 +374,7 @@
       <div class="text-center mh-100 d-flex  align-items-center justify-content-center politicasPriv">
         <h5 class="card-header text-center text-politic">
           <a href="privacyPolicies.html" class="text-politic text-decoration-none">politicas de Privacidad y Cookies</a>
+          / Funciona gracias a WordPress
         </h5>
 
       </div>
